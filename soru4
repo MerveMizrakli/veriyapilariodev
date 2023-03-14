@@ -1,0 +1,143 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+struct Ogrenci {
+	
+	char isim [20];
+	char soyisim [20];
+	int numara;
+	int yas;
+	char bolum [30];
+	char adres_bilgisi[200];
+	
+	
+}ogrenci1,ogrenci2,ogrenci3,ogrenci4,ogrenci5;
+
+
+
+
+int main(int argc, char *argv[]) {
+	
+	printf("Lutfen 1. ogrencinin bilgilerini giriniz:\n\n");
+	
+	printf("Isim: ");
+	scanf("%s",&ogrenci1.isim);
+	
+	printf("Soyisim: ");
+	scanf("%s",&ogrenci1.soyisim);
+	
+	printf("Numara: ");
+	scanf("%d",&ogrenci1.numara);
+	
+	printf("Yas: ");
+	scanf("%d",&ogrenci1.yas);
+	
+	printf("Bolum: ");
+	scanf("%s",&ogrenci1.bolum);
+	
+	printf("Adres bilgisi: ");
+	scanf("%s",&ogrenci1.adres_bilgisi);
+	
+	
+	 printf("\n1. ogrencinin bilgileri : %s %s %d %d %s %s \n\n ",ogrenci1.isim,ogrenci1.soyisim,ogrenci1.numara,ogrenci1.yas,ogrenci1.bolum,ogrenci1.adres_bilgisi);
+	
+	
+	
+	printf("Lutfen 2. ogrencinin bilgilerini giriniz:\n\n");
+	
+	printf("Isim: ");
+	scanf("%s",&ogrenci2.isim);
+	
+	printf("Soyisim: ");
+	scanf("%s",&ogrenci2.soyisim);
+	
+	printf("Numara: ");
+	scanf("%d",&ogrenci2.numara);
+	
+	printf("Yas: ");
+	scanf("%d",&ogrenci2.yas);
+	
+	printf("Bolum: ");
+	scanf("%s",&ogrenci2.bolum);
+	
+	printf("Adres bilgisi: ");
+	scanf("%s",&ogrenci2.adres_bilgisi);
+	
+	
+	  printf("\n2. ogrencinin bilgileri : %s %s %d %d %s %s \n\n",ogrenci2.isim,ogrenci2.soyisim,ogrenci2.numara,ogrenci2.yas,ogrenci2.bolum,ogrenci2.adres_bilgisi);
+	
+	
+	printf("Lutfen 3. ogrencinin bilgilerini giriniz:\n\n");
+	
+	printf("Isim: ");
+	scanf("%s",&ogrenci3.isim);
+	
+	printf("Soyisim: ");
+	scanf("%s",&ogrenci3.soyisim);
+	
+	printf("Numara: ");
+	scanf("%d",&ogrenci3.numara);
+	
+	printf("Yas: ");
+	scanf("%d",&ogrenci3.yas);
+	
+	printf("Bolum: ");
+	scanf("%s",&ogrenci3.bolum);
+	
+	printf("Adres bilgisi: ");
+	scanf("%s",&ogrenci3.adres_bilgisi);
+	
+	  printf("\n3. ogrencinin bilgileri : %s %s %d %d %s %s \n\n",ogrenci3.isim,ogrenci3.soyisim,ogrenci3.numara,ogrenci3.yas,ogrenci3.bolum,ogrenci3.adres_bilgisi);
+	
+	
+		printf("Lutfen 4. ogrencinin bilgilerini giriniz:\n\n");
+	
+	printf("Isim: ");
+	scanf("%s",&ogrenci4.isim);
+	
+	printf("Soyisim: ");
+	scanf("%s",&ogrenci4.soyisim);
+	
+	printf("Numara: ");
+	scanf("%d",&ogrenci4.numara);
+	
+	printf("Yas: ");
+	scanf("%d",&ogrenci4.yas);
+	
+	printf("Bolum: ");
+	scanf("%s",&ogrenci4.bolum);
+	
+	printf("Adres bilgisi: ");
+	scanf("%s",&ogrenci4.adres_bilgisi);
+	
+	 printf("\n4. ogrencinin bilgileri : %s %s %d %d %s %s \n\n ",ogrenci4.isim,ogrenci4.soyisim,ogrenci4.numara,ogrenci4.yas,ogrenci4.bolum,ogrenci4.adres_bilgisi);	
+	  
+	  
+	  
+	  printf("Lutfen 5. ogrencinin bilgilerini giriniz:\n\n");
+	
+	printf("Isim: ");
+	scanf("%s",&ogrenci5.isim);
+	
+	printf("Soyisim: ");
+	scanf("%s",&ogrenci5.soyisim);
+	
+	printf("Numara: ");
+	scanf("%d",&ogrenci5.numara);
+	
+	printf("Yas: ");
+	scanf("%d",&ogrenci5.yas);
+	
+	printf("Bolum: ");
+	scanf("%s",&ogrenci5.bolum);
+	
+	printf("Adres bilgisi: ");
+	scanf("%s",&ogrenci5.adres_bilgisi);
+	
+	 printf("\n5. ogrencinin bilgileri : %s %s %d %d %s %s \n\n ",ogrenci5.isim,ogrenci5.soyisim,ogrenci5.numara,ogrenci5.yas,ogrenci5.bolum,ogrenci5.adres_bilgisi);	
+			
+	
+	return 0;
+}
