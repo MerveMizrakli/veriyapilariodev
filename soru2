@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+
+
+                       
+
+    int i;  
+	int min,eleman; 
+	
+	                      
+    printf("Dizinin eleman sayisini giriniz: ");        // İşlem sayısı 1.
+    scanf("%d",&eleman);                                // İşlem sayısı 1.
+     
+    int dizi[eleman];
+    
+    
+    
+    for(i=0; i<eleman; i++)            // İşlem sayısı n. Çünkü n-1 kere işlem yapılacak. Daha sonra ekstra 1 kere daha dönecek ve işlem sağlanmayacak. Ama +1 işlem sağlanmasa da eklenir.
+    {
+        printf("\nLutfen %d 'inci Elemani Giriniz : ",i+1);    //Tekrar sayısı döngü tekrarından 1 eksiktir. Yani n-1'dir.   
+        scanf("%d",&dizi[i]);                                   
+        printf("********************\n");
+    }
+
+
+    min=dizi[0];                           // İşlem sayısı 1. Çünkü atama yapılmış.
+
+
+    for( i=1; i<eleman; i++)                   // İşlem sayısı n-1 olur.Çünkü n-2 kere döner ancak 1 fazlası olur.
+    
+    {
+        if(min>dizi[i])                   // İşlem sayısı n-2 olur.Çünkü döngü içindedir.
+        {
+            min=dizi[i];                  // İşlem sayısı 1 olur.Atama yapılmıştır.
+        }
+    }
+    
+    printf("Dizinin En Kucuk Elemani %d 'dir.\n\n",min);
+
+	
+	
+	// İşlem sayılarının toplamı T(n) = 4n 
+	
+	
+	
+	
+	return 0;
+}
